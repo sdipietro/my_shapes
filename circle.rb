@@ -11,6 +11,7 @@ class Circle
         Math::PI * @radius ** 2
     end
 
+    # calcuting the circumference of the circle
     def circumference
         2 * Math::PI * @radius
     end
