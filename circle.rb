@@ -6,4 +6,8 @@ class Circle
         @y = pos[1]
     end
 
+    def area
+        Math::PI * @radius ** 2
+    end
+
 end
