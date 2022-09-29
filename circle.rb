@@ -10,4 +10,8 @@ class Circle
         Math::PI * @radius ** 2
     end
 
+    def circumference
+        2 * Math::PI * @radius
+    end
+
 end
