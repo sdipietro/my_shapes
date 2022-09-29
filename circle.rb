@@ -6,6 +6,7 @@ class Circle
         @y = pos[1]
     end
 
+    # calculting the area of the circle
     def area
         Math::PI * @radius ** 2
     end
